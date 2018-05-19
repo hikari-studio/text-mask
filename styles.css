@@ -6,16 +6,16 @@ body, html {
 }
 
 .container {
-  background: url(bgb.jpeg) center no-repeat;
+  background: url(bg.jpeg) center no-repeat;
   background-size: cover;
   height: 100vh;
 }
 .container .text {
   font-weight: 600;
-  font-size: 45px;
-  padding-top: 5em;
-  background: url(bt.png) center no-repeat;
-  background-size: 120%;
+  font-size: 5em;
+  padding-top: 2em;
+  background: url(bgt.png) center no-repeat;
+  background-size: 290%;
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -23,7 +23,7 @@ body, html {
   transition: 3s ease-in-out;
 }
 .container .text:hover {
-  background-size: 80%;
+  background-size: 190%;
 }
 
 @media (min-width: 800px) {
@@ -31,5 +31,9 @@ body, html {
     font-weight: 800;
     font-size: 150px;
     padding-top: .5em;
+    background-size: 120%;
+  }
+  .container .text:hover {
+    background-size: 80%;
   }
 }
